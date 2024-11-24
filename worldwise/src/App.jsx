@@ -15,7 +15,7 @@ import CountryList from "./components/CountryList";
 function App() {
   return (
     <CitiesProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/worldwide">
         <Routes>
           <Route index element={<Homepage />} />
           <Route path="product" element={<Product />} />
